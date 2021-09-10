@@ -48,6 +48,9 @@ label span {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 }
+.logo-text {
+    margin-bottom: -15px;
+}
 
 .content {
     width: 300px;
@@ -95,4 +98,20 @@ label span {
     color: #E0FFFF !important;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black; 
+}
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.burger span {
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: #3CB371;
+    border: 1px solid #000;
 }
